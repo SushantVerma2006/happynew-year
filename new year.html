@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year 2024</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Happy New Year 2024 🎆</h1>
+        <p>Wishing you a year filled with joy, success, and good health!</p>
+        <button id="celebrate-btn">Celebrate 🎇</button>
+        <div id="fireworks"></div>
+    </div>
+</body>
+</html>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://t3.ftcdn.net/jpg/02/37/60/22/360_F_237602205_0nZtUInvGMUt0nIMYmqUdaxPs9EQClr2.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container {
+    margin-top: 20vh;
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 0 0 10px yellow, 0 0 20px orangered;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+#celebrate-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px black;
+}
+
+#celebrate-btn:hover {
+    background-color: orangered;
+}
+
+#fireworks {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 9999;
+}
+</style>
